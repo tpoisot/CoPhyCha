@@ -1,0 +1,1 @@
+pandoc CoSpec-chapter.md -o cospec-chapter.docx --bibliography=/home/tpoisot/texmf/bibtex/bib/local/library.bib
