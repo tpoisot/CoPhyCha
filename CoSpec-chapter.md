@@ -41,9 +41,7 @@ For coevolution to result in a co-phylogenetic pattern, a number of conditions m
 
 Single traits models as used by @yoder_when_2010 and @weitz_coevolutionary_2005 are more conservative in their estimates of when speciation can occur. However, @gilman_coevolution_2012 reached similar conclusions using a more realistic multidimensional trait space. As the number of traits (hence the complexity of the underlying physiological, behavioral, etc, processes involved in attack/defense) increased, the chance of the victim escaping its enemy became higher. From a mechanistic point of view, this result makes sense if defending against an enemy is easier than attacking a victim, or if the evolution of defense mechanisms is less constrained than the evolution of attack mechanisms. For example, a host can avoid a parasite through several non-mutually exclusive ways: behavioral adjustment, specific adaptations, or interactions with protective symbionts. For example, plants defend themselves against herbivores through biomechanics means [@whitney_biomechanics_2013], rendering them unpalatable, but also evolved specific signaling pathways to attract parasitoids to defend themselves [@wei_plants_2007].
 
-Finally, recent empirical findings on bacteria-phage systems, specifically the system formed by *Pseudomonas fluorescens* and its phages, can shed some light on the fact that co-diversification is seldom the rule in coevolving systems. @poullain_evolution_2008 investigated the evolution of host range of bacteriophages on bacterial hosts in evolving (the host do not evolve) and coevolving (both the host and the parasite evolve) interactions. Coevolution resulted in a higher generalism of phages, with a clear nested pattern of interactions. This same nested pattern was reported for field isolates of this [@poisot_structure_2013] and other [@koskella_understanding_2013] systems. These systems are well known to display coevolutionary dynamics in their natural habitats [@gomez_bacteria_2011;@gomez_bacteria-phage_2011;@gomez_bacteria-phage_2011;@koskella_local_2011].
-
-insights from network studies: poullain, biollett et ecolproc, buckling et gomez, ...
+Finally, recent empirical findings on bacteria-phage systems, specifically the system formed by *Pseudomonas fluorescens* and its phages, can shed some light on the fact that co-diversification is seldom the rule in coevolving systems. @poullain_evolution_2008 investigated the evolution of host range of bacteriophages on bacterial hosts in evolving (the host do not evolve) and coevolving (both the host and the parasite evolve) interactions. Coevolution resulted in a higher generalism of phages, with a clear nested pattern of interactions. This same nested pattern was reported for field isolates of this [@poisot_structure_2013] and other [@koskella_understanding_2013] systems. These systems are well known for displaying coevolutionary dynamics in their natural habitats [@gomez_bacteria-phage_2011;@koskella_local_2011].
 
 # Methodological consequences
 
@@ -61,19 +59,9 @@ PROBLEM WITH THIS – if coevo leads to more generalism, even after cospe, then 
 
 Some interesting recent proposals have been made to better integrate evolutionary and ecological mechanisms in the study of host-parasites community phylogenetics, starting with a replacement of the world co-phylogeny by co-phylogeography [@nieberding_use_2010]. This step is extremely important, as it explicitely accounts for the spatial signal in the … **more**
 
-# Should coevolution result in co-phylogenies?
+# Should coevolution result in mirroring phylogenies?
 
-In this part, I propose scenarios under which we can assume the coevolutionary process to result in a cophylogenetic pattern. **more**
-
-As mentionned in the introduction, coevolution requires correlations between the traits of one partner and both its fitness and the fitness of the other partner [@Nuismer2010], though correlation itself do not necessarily result in coevolution **ref**. Co-speciation, which can be revealed by the existence of a co-phylogenetic pattern, emerges when an evolutionary event (i.e. speciation) in one partner results in speciation in the other partner. The initial speciation even can be induced spatial constraints, niche differentiation, or can be triggered by the interaction with the parasite.
-
-As we show in the previous part, this event can occur with no associated change in fitness. Yet, this do not preclude the fact that under some conditions, coevolution can be the triggering factor in a co-speciation event.
-
-Reformulate this argument : Coevolution: evolutionary changes in Partner X leads to differential fitness among individuals of Partner Y. The latter then evolves in response to the selection force imposed by the former, and vice versa.
-
-> Co-speciation: evolutionary changes (e.g., measured by genetic divergence) in Partner X is induced by the evolutionary changes in Partner Y, with the consequent correlated changes leading to phylogenetic concordance between the two partners. It is better to illustrate this with an example of chewing lice-pocket gopher co-speciation. When gopher populations become fragmented and genetically diverged, the chewing lice carried on them become fragmented and genetically diverged as well, leading to phylogenetic concordance between the lice and the gopher. The population fragmentation of chewing lice is induced by the population fragmentation of the gophers, but not vice versa.
-
-YES but gradual changes early in the coevolutionary process can, during sympatric speciation, lead to fitness changes if the parasite is specialist
+As mentionned in the introduction, coevolution requires correlations between the traits of one partner and both its fitness and the fitness of the other partner, though correlation itself do not necessarily result in coevolution [@nuismer_when_2010]. Co-speciation, which can be revealed by the existence of a co-phylogenetic pattern, emerges when an evolutionary event (*i.e.* speciation) in one partner results in speciation in the other partner. The initial speciation even can be induced spatial constraints, niche differentiation, or can be triggered by the interaction with the parasite. In the previous part, I reviewed studies showing that (i) a co-phylogenetic structure can emerge in  the absence of coevolution, and (ii) coevolutionary dynamics are not necessarily expected to result in a co-phylogenetic pattern. In this part, I will review several events likely to happen during host-parasite coevolution, and how they will blur the co-phylogenetic pattern. Specifically, I show that these events have predictible consequences on the phylogenetic structure of hosts and parasites, and the distribution of interactions in the phylogeny. Accounting for these events will likely help refine our understanding of the interactions between coevolutionary dynamics and the emergence of a co-phylogenetic structure.
 
 ## The co-phylogeny scenarios
 
@@ -81,15 +69,29 @@ The emergence of perfectly matching phylogenies requires that each host speciati
 
 All of these events have been well described in a variety of empirical systems.
 
-host-switch can give congruent phylo, see De Vienne 2007
-
-[@jackson_cophylogenetic_2004] and [@DeVienne20070]: host-siwtch towrads phylo related hosts can give congruent phylogenies if the pathogen evolves faster than the host
-
-## Coevolutionary mechanisms behind the lack of cophylogenetic signal
+## Coevolution will impede the co-phylogenetic structure
 
 In this part, I show how coevolution can, and under some circumstances, is expected to, result in the four previously described events, thus preventing the establishment of a cophylogenetic structure.
 
 **Coevolution can trigger intra-host speciation.** 
+
+**Coevolution can trigger host-switch.** 
+
+host-switch can give congruent phylo, see De Vienne 2007
+
+Several evidences, however, point to the fact that these events can result in matching phylogenies. @jackson_cophylogenetic_2004 and @de_vienne_when_2007 observed that, as long as parasite acquire new hosts which are phylogenetically related to their current ones, the chances that a co-phylogenetic structure is detected increases. This is especially true if the parasite evolves faster than the host, in which case the host phylogeny serves as a "template" that wille guide the parasite diversification.
+
+**Coevolution can trigger host diversification.** 
+
+Hosts are selected on their ability to avoid, escape, and resist their parasites. This led to an important literature on the selection for "enemy-free" spaces, *i.e.* environments (or combination of traits) in which the host is freed from the selective and demographic pressure of its enemies [@jeffries_enemy_1984].
+ 
+@bernays_on_1988
+
+@atsatt_lycaenid_1981
+
+@brown_role_1995 observed that when a new host plant emerges, gallmakers tend to select preferentially the ancestral one to lay their eggs. In this perspective, the fact that the new host is not exploited is not a "failure" to cospeciate, but rather reflects the fact that exploiting the new host will result in a loss of performance for the enemy.
+
+**Coevolution can trigger parasite extinction.** 
 
 # Conclusions
 
@@ -97,7 +99,11 @@ assuming that cophylo = coevo can hinder our understanding of how defense evolve
 
 need to better integrate the spatial/temporal turnover [@alvarez_phylogeography_2010]
 
+heterogeneity -- papiers lamello yves, moi, kaci-chaouch
+
 the problem of scale: can display large-scale co-phylo pattern for no coevo reasons, and small scale no-cophylo pattern for coevo reasons
+
+Finaly, the literature reviewed here point to an interesting problem: the relationship between the coevolutionary process, and the phylogenetic structure of hosts-parasites associations, is expected to vary with scales. At large taxonomic or temporal scales (*e.g.* across the species in a genus, or genus in a larger taxa), non-coevolutionary factors are expected to favor the emergence of a co-phylogenetic structure. Such is the case in the several systems mentionned, for which co-speciation events reflected large-scale biogeographic events. Conversely, and at a finer taxonomic or temporal scale (*e.g.* closely related speices within a genus), the output of the coevolutionary process is expected to be a deviation from co-divergence, with hosts and parasites phylogenetic structures looking different. In short, at a "macro" scale, we expect the phylogenies of hosts and their parasites to look similar, although the cause of the similarity is not the coevolutionary process. At a "micro" scale however, there is no reason to expect, except under particularly restricted scenarios, that the coevolutionary process will result in matching phylogenies.
 
 # Figures
 
