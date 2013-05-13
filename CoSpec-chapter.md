@@ -9,9 +9,10 @@ diversification in both the host and its parasite, it is not clear under which
 set of conditions coevolution will result in mirorring phylogenies. By
 reviewing the literature related to host-parasite diversification and
 antagonistic coevolution, I highlight that coevolution is neither necessary
-nor sufficient in order to establish a co-phylogenetic pattern. The
-consequences of this fact for the interpretation of the presence or absence of
-a co-phylogenetic pattern are discussed.**
+nor sufficient in order to establish a co-phylogenetic pattern. I then review
+how the coevolutionary process can impede the establishment of this pattern,
+and the consequences of this for the study of the interactions between coevolution
+and phylogenetic structure.**
 
 # Introduction
 
@@ -47,7 +48,7 @@ failed to demonstrate congruence of the two trees, such as in millipedes and
 mites [@swafford_failure_2010]. The accumulating evidences that species
 interactions (notably antagonistic ones, such as hosts-parasites) often
 resulted in partners sharing a phylogenetic structure was instrumental in
-developing the notion of *tangled trees* [@Page1994;@Page2003]. It posits that
+developing the notion of *tangled trees* [@page_tangled_2003]. It posits that
 because hosts and parasites species are engaged in intimate interactions with
 one another, and often have a reciprocal effect on one another fitnesses, we
 expect that their evolutionary history will show some degree of similarity. A
@@ -55,7 +56,7 @@ the macro-evolutionary scale, this can result in the host phylogeny and the
 parasite phylogeny looking alike. In a significant number of these studies,
 the significance of the cophylogenetic pattern is equated to the likelihood
 that the host-symbiont system considered is coevolved. Indeed, this trend is
-clear when looking at the bibliometry (Fig. **xx**).
+clear when looking at the bibliometry (Fig. 1).
 
 Historically, looking for correspondences in the phylogenetic history of hosts
 and parasites to infer a coevolutionary history stems from two central ideas:
@@ -123,8 +124,7 @@ phylogenetic structure allows concluding that coevolution is occuring. I do so
 by showing that coevolution is neither necessary (co-phylogenetic structure
 can emerge outside of coevolving interactions), nor sufficient (coevolution
 can lead to non-matching phylogenies), to establish a cophylogenetic pattern.
-I briefly discuss the consequences of these facts for the methodology on co-
-phylogenies. Finally, I explore the role of several coevolutionary scenarios
+Finally, I explore the role of several coevolutionary scenarios
 in preventing the establishment of a co-phylogenetic structure, and show that
 they have predictable consequences on the observed co-phylogeny. I conclude by
 recommending that we do away with the idea that co-phylogeny implies
@@ -277,7 +277,7 @@ and the emergence of a co-phylogenetic structure.
 
 The emergence of perfectly matching phylogenies requires that each host
 speciation event is matched by a parasite speciation event (and reciprocally),
-while no other evolutionary events happen [@Page1994]. Any deviation from this
+while no other evolutionary events happen [@page_tangled_2003]. Any deviation from this
 situation will result in a decrease of the matching between the host and
 parasite phylogenies. Broadly speaking, one can describe four categories of
 evolutionary events decreasing the matching between phylogenies: intra-host
@@ -362,8 +362,8 @@ that host-switch (*i.e.* the use of a novel host over time), and more broadly
 host range expansion (*i.e.* the ability to infect a novel, additional host)
 are likely outcomes of the coevolutionary process. When host-switch events are
 accounted for by co-phylogeny reconstruction software, it is most often under
-the form of the spontaneous acquisition of a new host. @hall_bacteria-
-phage_2010 present experimental results seriously challenging of this view.
+the form of the spontaneous acquisition of a new host. @hall_bacteria-phage_2010
+present experimental results seriously challenging of this view.
 Over long-term coevolution, parasites should evolve toward a greater
 generalism. Under this perspective, the spontaneous acquisition of a novel
 host is less likely than the progressive broadening of the host range. This
@@ -375,7 +375,7 @@ the progressive broadening of the host range [@scanlan_genetic_2011].
 
 With regard to these results, the fact that generalist pathogens have a higher
 phenotypic and genetic variability makes more (evolutionary) sense.
-@kaci_chaouch_host_2008 report that within the genus *Lamellodiscus*,
+@kaci-chaouch_host_2008 report that within the genus *Lamellodiscus*,
 generalist species have more variability than specialist species both in terms
 of morphology and genetics. A frequently proposed hypothesis is that
 generalists parasites are more variable to accomodate the heterogeneity of
@@ -391,23 +391,32 @@ from coevolutionary studies and the phylogenetic distribution of generalism,
 it seems that the evolution of larger host ranges is an important point to
 clarify the coevolutionary consequences on phylogenetic structures.
 
-Several evidences, however, point to the fact that these events can result in
-matching phylogenies. @jackson_cophylogenetic_2004 and @de_vienne_when_2007
-observed that, as long as parasite acquire new hosts which are
-phylogenetically related to their current ones, the chances that a co-
-phylogenetic structure is detected increases. This is especially true if the
-parasite evolves faster than the host, in which case the host phylogeny serves
-as a "template" that will guide the parasite diversification.
+Several evidences, however, point to the fact that these events can
+nonetheless result in matching phylogenies. @jackson_cophylogenetic_2004 and
+@de_vienne_when_2007 observed that, as long as parasite acquire new hosts
+which are phylogenetically related to their current ones, the chances that a
+co- phylogenetic structure is detected increases. This is especially true if
+the parasite evolves faster than the host, in which case the host phylogeny
+serves as a "template" that will guide the parasite diversification. This
+implies that a lot of caution should be paid when infering the sequence of
+diversification events: even though the phylogenies can be perfectly matching,
+this can happen in the absence of co-speciation events.
 
 ## Coevolution can trigger host diversification
 
-Hosts are selected on their ability to avoid, escape, and resist their parasites. This led to an important literature on the selection for "enemy-free" spaces, *i.e.* environments (or combination of traits) in which the host is freed from the selective and demographic pressure of its enemies [@jeffries_enemy_1984].
- 
-@bernays_on_1988
-
-@atsatt_lycaenid_1981
-
-@brown_role_1995 observed that when a new host plant emerges, gallmakers tend to select preferentially the ancestral one to lay their eggs. In this perspective, the fact that the new host is not exploited is not a "failure" to cospeciate, but rather reflects the fact that exploiting the new host will result in a loss of performance for the enemy.
+Hosts are selected on their ability to avoid, escape, and resist their
+parasites. This led to an important literature on the selection for "enemy-
+free" spaces, *i.e.* environments (or combination of traits) in which the host
+is freed from the selective and demographic pressure of its enemies
+[@jeffries_enemy_1984]. @brown_role_1995, for example, observed that when a
+new host plant emerges, gallmakers tend to select preferentially the ancestral
+one to lay their eggs. In this perspective, the fact that the new host is not
+exploited is not a "failure" to cospeciate, but rather reflects the fact that
+exploiting the new host will result in a loss of performance for the enemy.
+As previously mentionned, @alizon_multiple_2008 report that host speciation
+events can happen in the absence of parasite speciation events, if the cost of
+acquiring the incipient host species is too high. In this case, there is no
+co-speciation.
 
 The question of diversification through coevolution has been extensively
 studied using microbial systems in experimental evolution. @buckling_role_2002
@@ -427,22 +436,18 @@ occured, resistant hosts specialized on different ecological phenotypes,
 suggesting that their new combination of traits freed them from the pathogen
 pressure.
 
-@boots_importance_2012 report important theoretical results. In a one-host,
-one-parasite system, it is possible to observe a bifurcation of host traits
-(transmissibility and susceptibility), even though the parasite is *not*
-evolving at all. This happens when there is inheritable variation in both
-traits in the hosts. Specifically, diversity in hosts traits is favoured when
-the risk of a related individual transmitting the disease is high. Under these
-scenarios, the interactions between individuals with contrasted levels of
-(*e.g.*) resistance is not random: individuals with high resistance tend to
+Finally, @boots_importance_2012 report important theoretical results. In a
+one-host, one-parasite system, it is possible to observe a bifurcation of host
+traits (transmissibility and susceptibility), even though the parasite is
+*not* evolving at all. This happens when there is inheritable variation in
+both traits in the hosts. Specifically, diversity in hosts traits is favoured
+when the risk of a related individual transmitting the disease is high. Under
+these scenarios, the interactions between individuals with contrasted levels
+of (*e.g.*) resistance is not random: individuals with high resistance tend to
 interact between themselves, just as individuals with high susceptibility will
 do. This result shows that even when speciation of a paratized host occurs as
 a reponse to parasitism, this can happen without any sort of coevolutionary
 dynamics.
-
-## Coevolution can trigger parasite extinction
-
-FIND SOME REFS
 
 # Conclusions
 
@@ -464,35 +469,58 @@ scenarios, that the coevolutionary process will result in matching
 phylogenies. This calls for more attention to the scale, both temporal,
 spatial, and taxonomic, at which the concept of coevolution is applied.
 
-heterogeneity -- papiers lamello yves, moi, kaci-chaouch
+However, there is a more pressing, and potentially problematic issue. Assuming
+that the existence of a co-phylogenetic structure indicates a coevolutionary
+past can hinder our ability to understand the evolution of host defense
+mechanisms [@cavender-bares_merging_2009]. Early in the study of coevolution,
+@janzen_when_1980 pointed out that current defense mechanisms most likely
+evolved in response to past enemies. For example, @desdevises_evolution_2002
+showed that host-specificity of *Lamellodiscus* monogeneans is explained at
+45% by phylogenetic intertia. This clearly demonstrates the importance of
+accounting for past defense/infection strategies in understanding the current
+phylogenetic structure of host-parasite assemblages. Similarly, the impact of
+past hosts/enemies on current infection ranges has been well investigated in
+bacteria-phage systems. CRISPRs, short genomic sequences of bacteria used for
+defense against contemporary phages, are most likely fragments of the genome
+of phage exploiting the ancestral bacteria [@weitz_phagebacteria_2013]. The use of
+CRISPRs in defense was dubbed the *ghost of coevolution past* [@vale_crispr-mediated_2010]
+, and illutrates that a large part of the contemporary defense
+mechanisms are in fact not a response to the contemporary enemies. With this
+perspective, stating the co-phylogeny indicates a coevolutionary history is
+not only too simple a view to be useful, but can also hamper future progress
+in the study of host-parasite long-term evolutionary dynamics.
 
-However, there is a more pressing, and potentially problematic issue. Assuming that the existence of a co-phylogenetic structure indicates a coevolutionary past can hinder our ability to understand the evolution of host defense mechanisms. Early in the study of coevolution, **janzen** pointed out that current defense mechanisms most likely evolved in response to past enemies. In the field of bacteria-phage interactions, this proposition received some empirical support. CRISPRs, short genomic sequences of bacteria used for defense against contemporary phages, are most likely fragments of the genome of phage exploiting the ancestral bacteria **WEITZ**. The use of CRISPRs in defense was dubbed the *ghost of coevolution past* **VALE**, and illutrates that the contemporary defense mechanisms may not be a response to the contemporary enemies.
+Finally, and although this was only evocated in this chapter, there is a need
+to better integrate environmental and species heterogeneity to our study of
+the interactions between coevolutionary dynamics and phylogenetic structure.
+Recent results showed that interactions between potentially coevolved hosts
+and parasites vary a lot through space [@poisot_dissimilarity_2012]. Despite
+the fact that different local interactions will most likely result in
+different reciprocal selection pressures on the host and the parasite, the
+consequences of this variation for local and regional coevolutionary dynamics
+are not clear at the moment. Similarly, @alvarez_phylogeography_2010 recently
+pointed out that the variation in the interactions between mutualistic
+interaction responded to changes in the pattern of connectivity between
+populations, and changes in the distribution and traits of individuals. In
+some situations, a lack of congruence in the phylogographic structure of hosts
+and mutualistic symbionts is expected. There is clearly much to gain from the
+study of how local and regional processes (and, similarly, of how short and
+long-scale mechanisms) regulate the impact of coevolution on the phylogenetic
+structure. A new methodological proposal by @nieberding_use_2010 will likely
+help in this effort: by allowing to investigate the phylogenetic conservatism
+in species traits, distribution, and interactions, and to confront it to
+structure of the landscape, it is likely that we will gain a much finer
+understanding of how the variety of mechanisms shaping coevolutionary dynamics
+will make the co-phylogenetic structure of host-parasite assemblages emerge.
 
-assuming that cophylo = coevo can hinder our understanding of how defense evolve: janzen (evolved IN THE PAST), cavender-bares
-
-**FINAL POINT**: need to better integrate the spatial/temporal turnover [@alvarez_phylogeography_2010]
+**Acknowledgements** I thank S. Morand for offering me the opportunity to
+contribute this chapter. Ideas presented in this chapter originate from
+stimulating discussions with M.E. Hochberg, Y. Desdevises, P.H. Thrall, J.D.
+Bever, J.S. Weitz, and N. Mouquet. Funding during the writing of this chapter
+was provided by a FRQNT-PBEEE post-doctoral scolarship.
 
 # Figures
 
 ![Bibliometric analysis of the cophylogeny-coevolution association. Left: Number of articles published each year (data from Web of Knowledge) with cospeciation, codivergence, or cophylogeny in the text (plain line), and subset of these articles also mentioning coevolution (dashed line). Right: proportion of the papers about cophylogeny, cospeciation or codivergence mentioning coevolution. This ratio has been stable (around 0.34) since the 1990s.](./bibliometry.png)
 
-<!-- 
-![Effect of adding interactions in a host-parasite interaction matrix on the results of *ParaFit*. The data used come from **ttt**. Left panel: value of the parafit global statistic (lower value inidicate high support for coevolution). Right panel: p-value of the parafit test. In both panels, the outcome of 100 simulations (mean plus/minus one standard deviation) are ploted. The solid line is the value on the original dataset. In the right panel, the dashed line represents *p = 0.05*.](./parafit-test.png) -->
-
 # References
-
-<!-- # Methodological consequences
-
-In the previous part, I **what?**
-
-This view bears important methodological consequences, as I show that (i) the detection of a co-phylogenetic structure is not a good indicator of wether coevolution occured or not, and (ii) some of these tests may furthermore be biased by some situations which are likely to arise in coevolutionary systems.
-
-There has been a number of methodological developments surrounding the significance of a co-phylogenetic pattern. SHORT REVIEW.
-
-A good number of these methods have strong underlying assumptions, some of which may make little ecological sense. Looking at the method behind *ParaFit* [@legendre_statistical_2002]], it is clear that the emergence of generalist parasites will result in a loss of statistical power. This test works on the assumption that most of the parasitic lineages are highly specialized, which was the dominant opinion in systematic parasitology at some point REF, and may hold true for broad taxonomical scales REF. Should generalists parasites appears at several places in the tree, even after a perfect series of cospeciation, they would prevent the detection of the cospeciation events.
-
-PROBLEM WITH THIS – if coevo leads to more generalism, even after cospe, then viewing these as evidences of coevo will tell no coevo !!!
-
-* Assumptions behind tests of cospeciation (Parafit and subsequent methods), and how they relate to the biological reality
-
-Some interesting recent proposals have been made to better integrate evolutionary and ecological mechanisms in the study of host-parasites community phylogenetics, starting with a replacement of the world co-phylogeny by co-phylogeography [@nieberding_use_2010]. This step is extremely important, as it explicitly accounts for the spatial signal in the … **more** -->
