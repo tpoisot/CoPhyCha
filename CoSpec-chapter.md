@@ -288,13 +288,70 @@ extinction. In this part, I show how coevolution can, and under some
 circumstances, is expected to, result in the four previously described events,
 thus preventing the establishment of a cophylogenetic structure.
 
-## Coevolution can trigger intra-host speciation
+## Coevolution can trigger parasite speciation or extinction
 
-quite easy
+A modelling study by @best_evolution_2010 suggests that "true" cospeciation
+events can be rare. Through simulating the co-evolution of a host-pathogen
+system, they were able to find that although epidemiological feedbacks were
+able to generate diversity both in the host *and* the parasite, this apparent
+cospeciation often followed the same scenario. First, there is a divergence of
+the host population, in which case the parasite do not diverge, but tracks the
+ancestral lineage, with the possibility of infecting the incipient host.
+Second there is a divergence of the parasite in two strains, each tracking one
+of the new host strains. This would correspond to "delayed" (generalism
+followed by-speciation) or "pseudo" (failure to co-speciate followed by host-
+switch) cospeciation. However, given enough time and bifurcation events, the
+outcome of this process is the maintenance of hosts with a continuum of
+resistance values, and of parasites with a continuum of infectivity values.
+This result helps understanding why some coevolved systems, such as bacteria-
+phage interactions, display a "nested" structure [@flores_statistical_2011],
+with hard to infect hosts being infected only by the most infectious
+parasites, and conversely. Previous results by @best_implications_2009 showed
+that in this family of models, however, bifurcation in the host did not
+triggered bifurcation in the parasite, and reciprocally. In agreement with the
+modelling results presented above, this suggests that most of the time,
+coevolution will not result in co-divergence, and that when it does, it will
+most likely be in the form of delayed or pseudo co-speciation rather than
+"true" cospeciation.
 
-adaptive dynamics
+@simmons_rapid_2010 demonstrated experimentally that the genetic diversity of
+Zucchini yellow mosaic virus is high during infections, which can help in
+establishing a bank of strains with the ability to overcome some aspects of host
+defense. Interestingly, although mutations within the plant had a short
+residence time (in the experiment, most mutations are only observed once before
+they go extinct) due to them being mostly deleterious, the genetic structure of
+the ZYMV within aphid vectors is high. Accumulation of the virus in aphids is
+likely to introduce a strong bottleneck, and thus to be responsible for the
+establishment of several viruses lineages in the host population.
+@sasaki_antigenic_2000 show that within-host dynamics can eventually lead to
+intra-host extinction of the parasite. When infecting a new host, parasites will
+try to avoid its immune system through an increase of antigenic diversity. The
+evolutionary dynamics of the virus will, in this situation, resenble a series of
+sweeps, followed by the emergence of a new antigenic variant (the phylogenetic
+relationship between the  different viral strains showed a high variability
+between replicates). However, due to *e.g.* structural constraints (number of
+antigenic-determining sites in the pathogen proteins, for example), there are a
+finite number of possible viral variants. In their simulations, once the viral
+population cycled through all these variants, the immune memory of the host was
+able to eliminate all types of pathogens, thus leading to its local extinction.
+@alizon_multiple_2008 investigated the impact of coinfection on the behaviour of
+a similar system. Their conclusions are two-fold. First, two or more pathogens
+with antigenic similarity cannot show long-term intra-host coexistence. Second,
+the multiplicity of infections creates heterogeneity within the host population.
+This heterogeneity in turns allows for branching of the parasite, thus promoting
+its diversification.
 
-poullain
+All in all, the results presented in this section suggest three things. First,
+parasites can undergo intra-host diversification as a consequence of
+coevolutionary dynamics. Second, especially in systems in which the host can
+acquire immunity, the saturation of antigenic sites can lead to local
+extinction of the pathogen. Finally, most of the evolutionary dynamics
+described results from the interactions between epidemiological feedbacks,
+intra-host coevolution with the immune system, and coevolutionary dynamics in
+the more classical sense of the terms. These different mechanisms (and scales
+of observation) needs to be integrated so as to understand the exact
+consequences of coevolution on the phylogenetic structure of hosts and
+parasites.
 
 ## Coevolution can trigger host-switch
 
@@ -302,7 +359,7 @@ A major aspect of co-phylogenetic structure is that hosts and parasites should
 keep a one-to-one association, *i.e.* a parasite should interact with an host
 matching its position on the other tree. Yet, there is accumulating evidence
 that host-switch (*i.e.* the use of a novel host over time), and more broadly
-host rang expansion (*i.e.* the ability to infect a novel, additional host)
+host range expansion (*i.e.* the ability to infect a novel, additional host)
 are likely outcomes of the coevolutionary process. When host-switch events are
 accounted for by co-phylogeny reconstruction software, it is most often under
 the form of the spontaneous acquisition of a new host. @hall_bacteria-
@@ -367,8 +424,21 @@ increase host diversity at a *regional*, but does not consistently does so at
 a *local* scale. @brockhurst_effect_2005 further refined this result, using
 phages of the *Pseudomonas aeruginosa* bacterium. When diversification
 occured, resistant hosts specialized on different ecological phenotypes,
-suggesting that their new combination of traits freed then from the pathogen
+suggesting that their new combination of traits freed them from the pathogen
 pressure.
+
+@boots_importance_2012 report important theoretical results. In a one-host,
+one-parasite system, it is possible to observe a bifurcation of host traits
+(transmissibility and susceptibility), even though the parasite is *not*
+evolving at all. This happens when there is inheritable variation in both
+traits in the hosts. Specifically, diversity in hosts traits is favoured when
+the risk of a related individual transmitting the disease is high. Under these
+scenarios, the interactions between individuals with contrasted levels of
+(*e.g.*) resistance is not random: individuals with high resistance tend to
+interact between themselves, just as individuals with high susceptibility will
+do. This result shows that even when speciation of a paratized host occurs as
+a reponse to parasitism, this can happen without any sort of coevolutionary
+dynamics.
 
 ## Coevolution can trigger parasite extinction
 
